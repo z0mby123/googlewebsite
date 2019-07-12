@@ -14,32 +14,53 @@
     float: right;
 }
 
-.parent{
+.placeleftbuttonleft {
+    margin-right: 3%;
+}
+
+.parent {
     position: relative;
 }
-.midelementspic{
+
+.midelementspic {
     position: absolute;
-    top:50%;
-    transform:translateY(-50%);
-    margin-right: 20%;   
+    top: 40%;
+    transform: translateY(30px);
+    transform: translateX(-40%);
 }
-.secondparent{
+
+.secondparent {
     position: relative;
 }
-.fortextbox{
-position: absolute;
-top:60%;
-transform:translateY(-70%);
 
-
-}
-.thirdparent{
-    position: relative;
-}
-.forbuttons{
+.fortextbox {
     position: absolute;
-    top:70%;
-    transform:translateY(-80%);
-    
+    top: 60%;
+    transform: translateY(-50%);
+    transform: translateX(245%);
+}
 
+.thirdparent {
+    position: relative;
+}
+
+.forbuttons {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-80%);
+    transform: translateX(-40%);
+}
+
+.ul {
+    list-style-type: none;
+}
+
+.anothernav {
+    float: left;
+    transform: translateY(450px);
+}
+
+.thirdnavbar {
+    float: left;
+    transform: translateY(500px);
 }
