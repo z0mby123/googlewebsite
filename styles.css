@@ -35,9 +35,9 @@
 
 .fortextbox {
     position: absolute;
-    top: 60%;
+    top: 55%;
     transform: translateY(-50%);
-    transform: translateX(245%);
+    transform: translateX(300%);
 }
 
 .thirdparent {
@@ -58,9 +58,16 @@
 .anothernav {
     float: left;
     transform: translateY(450px);
+    background-color: rgb(172, 174, 177);
 }
 
 .thirdnavbar {
     float: left;
     transform: translateY(500px);
+    margin-left: 5%;
+}
+.gobotright{
+    transform: translateY(500px);
+
+    margin-left:5%;
 }
