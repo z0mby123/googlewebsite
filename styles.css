@@ -16,6 +16,7 @@
 
 .placeleftbuttonleft {
     margin-right: 3%;
+    margin-left: 10%;
 }
 
 .parent {
@@ -26,7 +27,7 @@
     position: absolute;
     top: 40%;
     transform: translateY(30px);
-    transform: translateX(-40%);
+    transform: translateX(-9%);
 }
 
 .secondparent {
@@ -35,9 +36,10 @@
 
 .fortextbox {
     position: absolute;
-    top: 55%;
+    top: 60%;
     transform: translateY(-50%);
-    transform: translateX(300%);
+    transform: translateX(250%);
+    left: 1%
 }
 
 .thirdparent {
@@ -66,8 +68,12 @@
     transform: translateY(500px);
     margin-left: 5%;
 }
-.gobotright{
-    transform: translateY(500px);
 
-    margin-left:5%;
+.gobotright {
+    transform: translateY(500px);
+    margin-left: 5%;
+}
+
+.buttonthree {
+    transform: translateX(250px);
 }
